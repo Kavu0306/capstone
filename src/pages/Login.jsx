@@ -1,6 +1,6 @@
 import Google from "../img/google.png";
 import Github from "../img/github.png";
-import "../app.css"
+import "../App.css"
 
 const Login = () => {
   const google = () => {
