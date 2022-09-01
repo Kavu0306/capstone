@@ -1,5 +1,6 @@
 import Google from "../img/google.png";
 import Github from "../img/github.png";
+import facebook from "../img/facebook.png"
 import "../App.css"
 import {config} from "../config"
 
@@ -10,6 +11,10 @@ const Login = () => {
 
   const github = () => {
     window.open(`${config.api}/auth/github`, "_self");
+  };
+
+  const facebook = () => {
+    window.open(`${config.api}/auth/facebook`, "_self");
   };
 
   return (
@@ -24,6 +29,10 @@ const Login = () => {
           <div className="loginButton github" onClick={github}>
             <img src={Github} alt="" className="icon" />
             Github
+          </div>
+          <div className="loginButton github" onClick={facebook}>
+            <img src={facebook} alt="" className="icon" />
+            Facebook
           </div>
         </div>
         <div className="center">
