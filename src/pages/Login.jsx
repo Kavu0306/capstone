@@ -1,14 +1,15 @@
 import Google from "../img/google.png";
 import Github from "../img/github.png";
 import "../App.css"
+import {config} from "../config"
 
 const Login = () => {
   const google = () => {
-    window.open("http://localhost:5000/auth/google", "_self");
+    window.open(`${config.api}/auth/google`, "_self");
   };
 
   const github = () => {
-    window.open("http://localhost:5000/auth/github", "_self");
+    window.open(`${config.api}/auth/github`, "_self");
   };
 
   return (
