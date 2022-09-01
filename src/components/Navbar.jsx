@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import "../app.css"
 
 const Navbar = ({ user }) => {
   const logout = () => {

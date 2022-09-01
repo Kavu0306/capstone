@@ -1,5 +1,6 @@
 import Card from "../components/Card"
 import {posts} from "../data"
+import "../app.css"
 
 const Home = () => {
     return (

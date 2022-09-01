@@ -1,5 +1,6 @@
 import { useLocation } from "react-router";
 import { posts } from "../data";
+import "../app.css"
 
 const Post = () => {
   const location = useLocation();
